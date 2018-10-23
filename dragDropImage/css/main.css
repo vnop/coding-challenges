@@ -1,0 +1,25 @@
+.world {
+  color: blue;
+}
+
+.container {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  justify-content: flex-start;
+  border: 1px solid black;
+}
+
+.dropArea {
+  flex: 1;
+  background: #dedede;
+}
+
+.gridArea {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gridArea > * {
+  margin: 0 10px 10px 0;
+}
